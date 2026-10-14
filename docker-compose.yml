@@ -1,0 +1,82 @@
+services:
+  coletor-web:
+    build: .
+    container_name: coletor-trafegus-web
+    restart: unless-stopped
+    volumes:
+      - ./config:/app/config
+      - ./logs:/app/logs
+      - /home/lucas/apps/vpn-agent/run:/app/vpn-run
+      - /home/lucas/apps/cerebro/vault/trafegus/conhecimento:/app/knowledge:ro
+
+  coletor-job:
+    build: .
+    profiles: ["job"]
+    command: ["npm", "start"]
+    volumes:
+      - ./config:/app/config
+      - ./logs:/app/logs
+      - /home/lucas/apps/cerebro/vault/trafegus/conhecimento:/app/knowledge:ro
+
+  coletor-mcp:
+    build:
+      context: .
+      dockerfile: Dockerfile.mcp
+    container_name: coletor-trafegus-mcp
+    user: "1000:1000"
+    restart: unless-stopped
+    depends_on:
+      - coletor-web
+    ports:
+      - "127.0.0.1:8094:8000"
+    env_file:
+      - ./mcp/.env
+    environment:
+      TRAFEGUS_BASE_URL: http://coletor-web:3001
+      KNOWLEDGE_DIR: /vault/trafegus/conhecimento
+      LOG_DIR: /logs
+      MCP_PORT: 8000
+      ACTIVITY_FILE: /state/last-activity
+      CASOS_DIR: /vault/trafegus/casos
+      VAULT_DIR: /vault
+      HOME: /tmp
+      COORD_DIR: /agent_sync
+    volumes:
+      - ./logs:/logs:ro
+      - ./mcp/state:/state
+      - /home/lucas/apps/cerebro/vault:/vault
+      - ./agent_sync:/agent_sync
+      - .:/workspace:ro
+
+  gateway:
+    image: nginx:1.27-alpine
+    container_name: coletor-trafegus-gateway
+    restart: unless-stopped
+    depends_on:
+      - coletor-web
+      - coletor-mcp
+    ports:
+      - "127.0.0.1:8093:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+
+  cerebro-mcp:
+    build:
+      context: .
+      dockerfile: Dockerfile.mcp
+    container_name: cerebro-mcp
+    restart: unless-stopped
+    user: "1000:1000"
+    command: ["node", "cerebro-http.mjs"]
+    env_file:
+      - /home/lucas/apps/cerebro/mcp/.env
+    environment:
+      VAULT_DIR: /vault
+      VAULT_LOG: /state/vault-escritas.jsonl
+      MCP_PORT: 8000
+      HOME: /tmp
+    volumes:
+      - /home/lucas/apps/cerebro/vault:/vault
+      - /home/lucas/apps/cerebro/mcp/state:/state
+    ports:
+      - "127.0.0.1:8766:8000"

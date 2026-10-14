@@ -1,0 +1,25 @@
+{
+  "name": "coletor-trafegus",
+  "version": "7.1.0",
+  "private": true,
+  "main": "backend/index.js",
+  "scripts": {
+    "start": "node backend/index.js",
+    "web": "node web/server.js",
+    "test": "node backend/test.js",
+    "validate-config": "node backend/index.js --validate-config",
+    "migrate-appdb": "node backend/migrate-appdb.js",
+    "seed-admin": "node backend/seed-admin.js",
+    "reset-password": "node backend/reset-password.js",
+    "migrate-config-to-db": "node backend/migrate-config-to-db.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "pg": "^8.16.3",
+    "ssh2": "^1.17.0",
+    "sshpk": "^1.18.0"
+  }
+}

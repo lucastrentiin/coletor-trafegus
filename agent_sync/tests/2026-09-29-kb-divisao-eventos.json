@@ -1,0 +1,1907 @@
+{
+  "gerado_em": "2026-09-29T23:30:29.351Z",
+  "origem": "/srv/vault/conhecimento",
+  "saida": "/tmp/kb-arvore/conhecimento",
+  "fontes": [
+    {
+      "arquivo": "eventos-controle-da-viagem-1.md",
+      "titulo": "# Eventos — Controle da Viagem (parte 1)",
+      "secoes": 93,
+      "bytes": 305712
+    },
+    {
+      "arquivo": "eventos-controle-da-viagem-2.md",
+      "titulo": "# Eventos — Controle da Viagem (parte 2)",
+      "secoes": 94,
+      "bytes": 321043
+    },
+    {
+      "arquivo": "eventos-controle-de-perifericos-1.md",
+      "titulo": "# Eventos — Controle de Periféricos (parte 1)",
+      "secoes": 53,
+      "bytes": 45485
+    },
+    {
+      "arquivo": "eventos-controle-de-perifericos-2.md",
+      "titulo": "# Eventos — Controle de Periféricos (parte 2)",
+      "secoes": 61,
+      "bytes": 55075
+    },
+    {
+      "arquivo": "eventos-outros-tipos.md",
+      "titulo": "# Eventos — Outros tipos (Deslocamento, Desvio de Rota, Áreas de Risco, Pernoite, Rota Reversa, Comboios, Tempos, Carga, Viagem, Pesquisa)",
+      "secoes": 64,
+      "bytes": 281635
+    }
+  ],
+  "total_eventos": 365,
+  "por_tipo": {
+    "Controle da Viagem": 187,
+    "Controle de Periféricos": 114,
+    "Controle de Deslocamento": 23,
+    "Controle de Desvio de Rota": 7,
+    "Controle de Áreas de Risco": 6,
+    "Controle de Rota Reversa": 2,
+    "Controle de Comboios": 2,
+    "Controle de Viagem": 4,
+    "Controle de Tempos": 11,
+    "Controle de Pernoite": 5,
+    "Controle de Carga": 3,
+    "Pesquisa de Consulta": 1
+  },
+  "tipo_declarado_no_texto": 349,
+  "tipo_pelo_arquivo_de_origem": 16,
+  "regras_antes": 374,
+  "regras_depois": 374,
+  "renomeados_por_duplicidade": [
+    {
+      "titulo": "Controlar o Valor Máximo da Carga para a Viagem com Obrigatoriedade (art. 522641) — PGR 49 / Sistema 12",
+      "nome": "Controlar o Valor Máximo da Carga para a Viagem com Obrigatoriedade (art 522641)"
+    },
+    {
+      "titulo": "Controlar o Valor Máximo da Carga para a Viagem com Obrigatoriedade (art. 523351) — PGR 49 / Sistema 12",
+      "nome": "Controlar o Valor Máximo da Carga para a Viagem com Obrigatoriedade (art 523351)"
+    }
+  ],
+  "ids_sec_alterados": [
+    {
+      "antes": "REGRA-SEC-6ec083bc76d6fada",
+      "depois": "REGRA-SEC-9454856216bd6ca6",
+      "titulo": "Eventos de Autorização de Deslacre/Chegada/Conexão em Local da Viagem (Raio + Macro) (grupo)",
+      "documento": "eventos/Controle de Periféricos/Autorização de Deslacre-Chegada-Conexão em Local da Viagem (Raio + Macro) (grupo).md"
+    },
+    {
+      "antes": "REGRA-SEC-7fa6469cc1236c6d",
+      "depois": "REGRA-SEC-18348cd430d1ebcf",
+      "titulo": "Eventos de Autorização/Deslacre/Desengate/Chegada/Conexão Mediante Senha de Pânico Omnilink (grupo)",
+      "documento": "eventos/Controle de Periféricos/Autorização-Deslacre-Desengate-Chegada-Conexão Mediante Senha de Pânico Omnilink (grupo).md"
+    }
+  ],
+  "eventos": [
+    {
+      "documento": "eventos/Controle da Viagem/Violação de Início de Espera em Origem.md",
+      "artigo": "524152",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Fim de Viagem.md",
+      "artigo": "523363",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Cadastro de Nova Escolta.md",
+      "artigo": "541296",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Violação do Horário de Saída de Entrega.md",
+      "artigo": "523882",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Violação de Velocidade Máxima em Rota-Rodovia.md",
+      "artigo": "540057",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Saída de Manutenção (Somente Raio).md",
+      "artigo": "532833",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Validar Justificativa de Veículo Terceiro.md",
+      "artigo": "531450",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Saída de Raio de Coleta (Somente Raio).md",
+      "artigo": "523865",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Ao Ocorrer um Evento de Recebimento de Senha de Coação do Motorista.md",
+      "artigo": "527815",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Entrada em Aduana (Somente Raio).md",
+      "artigo": "531514",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Finalizar Viagem Anterior e Efetivar SM Automaticamente.md",
+      "artigo": "545022",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Violação de Fim de Espera em Coleta.md",
+      "artigo": "524183",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Saída de Filial (Somente Raio).md",
+      "artigo": "535139",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Cadastro de Novo Checklist.md",
+      "artigo": "532774",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Acúmulo de Valores de PGR Entre Veículos.md",
+      "artigo": "540750",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Macro de Saída da Origem.md",
+      "artigo": "525148",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Violação do Horário de Chegada em Entrega.md",
+      "artigo": "523879",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Entrada em Raio de Origem (Somente Raio).md",
+      "artigo": "523605",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Perda de Sinal da Tecnologia.md",
+      "artigo": "532779",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Saída de Raio de Coleta (Sem Viagem).md",
+      "artigo": "526134",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Saída de Local de Carga-Descarga.md",
+      "artigo": "535242",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Macro de Saída do Destino.md",
+      "artigo": "525150",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Entrada em Manutenção (Somente Raio).md",
+      "artigo": "532838",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Violação do Horário de Saída de Origem.md",
+      "artigo": "523894",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Descumprimento de Parâmetro do Veículo.md",
+      "artigo": "541113",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Macro de Saída da Entrega.md",
+      "artigo": "525151",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Saída de Fiscalização (Somente Raio).md",
+      "artigo": "535141",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Afastamento de Terminal Secundário.md",
+      "artigo": "540521",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Violação do Horário de Chegada em Coleta.md",
+      "artigo": "523886",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Validar Justificativa de Veículo Fixo.md",
+      "artigo": "531448",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Entrada em Cliente (Raio + Macro).md",
+      "artigo": "535154",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Saída de Raio de Coleta (Raio + Macro).md",
+      "artigo": "523847",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Violação de Início de Carregamento em Entrega.md",
+      "artigo": "524199",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Saída de Cliente (Raio + Macro).md",
+      "artigo": "535156",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Violação do Horário de Saída de Coleta.md",
+      "artigo": "523887",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Violação de Início de Espera em Coleta.md",
+      "artigo": "524161",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Validar Justificativa de Veículo Agregado.md",
+      "artigo": "531449",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Reinicio de Viagem.md",
+      "artigo": "523377",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Macro de Início de Viagem.md",
+      "artigo": "523615",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Entrada em Raio de Origem (Somente Raio, Viagem Agendada).md",
+      "artigo": "537027",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Recebimento de Macro Para Criação de SM.md",
+      "artigo": "539448",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Violação de Fim de Carregamento em Destino.md",
+      "artigo": "525073",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Saída de Raio de Destino (Somente Raio).md",
+      "artigo": "523647",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Expiração de Roteiro de Atividades de Checklist.md",
+      "artigo": "538502",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Obriga Preenchimento do NRO Pedido-Manifesto na SM.md",
+      "artigo": "570302",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Violação de Início de Descarregamento em Entrega.md",
+      "artigo": "525105",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Entrada em Filial (Raio + Macro).md",
+      "artigo": "535182",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Set Point do Equipamento Frio Fora da Faixa.md",
+      "artigo": "540328",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Expiração da Previsão de Início da SM.md",
+      "artigo": "535203",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Macro de Início de Viagem Sem Agendamento.md",
+      "artigo": "538857",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Obriga Preenchimento da Descrição da Carga.md",
+      "artigo": "570265",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Entrada em Raio de Destino (Sem Viagem).md",
+      "artigo": "526118",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Parada Informada com Bloqueio.md",
+      "artigo": "537749",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Saída de Local de Parada (Somente Raio).md",
+      "artigo": "532847",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Validar Periféricos Antes do Início da Viagem.md",
+      "artigo": "541557",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Validar Obrigatoriedade de Roteiro de Atividades (Veículo Carreta).md",
+      "artigo": "550487",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Entrada em Raio de Entrega (Sem Viagem).md",
+      "artigo": "526121",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Saída de Área de Sombra (Raio + Macro).md",
+      "artigo": "535147",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Restringir Veículo Agregado.md",
+      "artigo": "531297",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Perda de Sinal em Área Segura.md",
+      "artigo": "539257",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Entrada em Cliente (Somente Raio).md",
+      "artigo": "531552",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Cadastro de Nova SM.md",
+      "artigo": "525725",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Excesso de Tempo em Entrega.md",
+      "artigo": "525698",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Restringir Veículo Terceiro.md",
+      "artigo": "531298",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Lembrete de Contato com o Motorista em Viagem.md",
+      "artigo": "538869",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Obrigar Justificativa Terminais Secundários na Criação da SM.md",
+      "artigo": "570754",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Saída de Raio de Origem (Raio + Macro).md",
+      "artigo": "523793",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Violação de Fim de Descarregamento em Coleta.md",
+      "artigo": "525120",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Efetivação da Viagem.md",
+      "artigo": "523350",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Violação do Horário de Chegada em Destino.md",
+      "artigo": "523883",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Recebimento de Macro de Fim de Viagem em Destino.md",
+      "artigo": "530527",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Restringir Veículo Fixo.md",
+      "artigo": "531291",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Macro de Entrada em Destino.md",
+      "artigo": "525143",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Macro de Devolução de Nota Fiscal.md",
+      "artigo": "542183",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Saída de Filial (Raio + Macro).md",
+      "artigo": "535184",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Ausência de Macros na Viagem.md",
+      "artigo": "539437",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Saída de Aduana (Somente Raio, Em Viagem).md",
+      "artigo": "537054",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Entrada em Raio de Coleta (Raio + Macro).md",
+      "artigo": "523843",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Veículo Trafegando sem SM.md",
+      "artigo": "569548",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Obrigar Terminais Secundários na Criação da SM.md",
+      "artigo": "570358",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Violação do Horário de Chegada em Origem.md",
+      "artigo": "523895",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Violação de Início de Descarregamento em Origem.md",
+      "artigo": "525099",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Entrada em Raio de Destino (Somente Raio).md",
+      "artigo": "523630",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Macro de Entrada em Origem.md",
+      "artigo": "525132",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Saída de Matriz (Raio + Macro).md",
+      "artigo": "535199",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Perda de Sinal.md",
+      "artigo": "523437",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Saída de Raio de Entrega (Sem Viagem).md",
+      "artigo": "526136",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Macro de Entrada em Entrega.md",
+      "artigo": "525146",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Violação de Fim de Espera em Destino.md",
+      "artigo": "524173",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Macro de Fim de Viagem.md",
+      "artigo": "525711",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Início de Viagem sem Aceite.md",
+      "artigo": "528602",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Entrada em Raio de Coleta (Somente Raio).md",
+      "artigo": "523869",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Perda de Sinal 3.md",
+      "artigo": "540081",
+      "fonte": "eventos-controle-da-viagem-1.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Validar o Sinal do Rastreador para Salvar-Gravar a Viagem.md",
+      "artigo": "541608",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Saída de Raio de Destino (Sem Viagem).md",
+      "artigo": "526140",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Violação de Fim de Espera em Origem.md",
+      "artigo": "524167",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Saída de Raio de Origem (Somente Raio).md",
+      "artigo": "523677",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Entrada em Fiscalização (Raio + Macro).md",
+      "artigo": "535188",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Violação de Início de Carregamento em Origem.md",
+      "artigo": "524187",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Entrada em Matriz (Somente Raio).md",
+      "artigo": "534321",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Saída da Origem Sem Macro de Início ou Reinício (Em viagem).md",
+      "artigo": "540485",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Validar Justificativa de Roteiro de Atividades (Veículo Carreta).md",
+      "artigo": "550500",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Macro de Início de Viagem Sem Viagem Iniciada.md",
+      "artigo": "525706",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Controle de Degelo.md",
+      "artigo": "550123",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Violação do Horário de Saída em Destino.md",
+      "artigo": "523878",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Perda de Sinal Terminal Secundário.md",
+      "artigo": "538491",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Saída de Raio de Origem (Com Viagem Agendada).md",
+      "artigo": "534299",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Saída de Fiscalização (Raio + Macro).md",
+      "artigo": "535191",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Excesso de tempo em Origem.md",
+      "artigo": "525649",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Entrada em Raio de Destino (Raio + Macro).md",
+      "artigo": "523642",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Entrada em Raio de Origem (Sem Viagem).md",
+      "artigo": "526111",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Entrada em Raio de Entrega (Somente Raio).md",
+      "artigo": "523798",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Violação de Início de Carregamento em Coleta.md",
+      "artigo": "524204",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Violação de Fim de Carregamento em Origem.md",
+      "artigo": "524207",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Excesso de Tempo em Destino.md",
+      "artigo": "525697",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Validar Idade Mínima de Fabricação de Veículos na SM.md",
+      "artigo": "544756",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Violação de Início de Descarregamento em Coleta.md",
+      "artigo": "525107",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Ignorar Macros de Inibição de Envios Automáticos.md",
+      "artigo": "534098",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Macro de Baixa de Nota Fiscal.md",
+      "artigo": "542181",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Saída de Raio de Origem (Sem Viagem).md",
+      "artigo": "526126",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Entrada em Fiscalização (Somente Raio).md",
+      "artigo": "535140",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Entrada em Local de Parada (Somente Raio).md",
+      "artigo": "532842",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Chegada em Local de Carga-Descarga.md",
+      "artigo": "535235",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Porcentagem Mínima de Efetividade de Temperatura.md",
+      "artigo": "540338",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Equipamento de Frio Desligado.md",
+      "artigo": "540318",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Saída de Raio de Entrega (Raio + Macro).md",
+      "artigo": "523810",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Validar Associação de Rota na Viagem.md",
+      "artigo": "542203",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Macro de Entrada em Origem (Raio + Macro - Viagem Agendada).md",
+      "artigo": "538556",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Violação de Início de Espera em Destino.md",
+      "artigo": "524156",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Retorno de Sinal.md",
+      "artigo": "532090",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Violação de Fim de Espera em Entrega.md",
+      "artigo": "524181",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Entrada em Raio de Origem (Raio + Macro).md",
+      "artigo": "523617",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Entrada em Local de Parada (Raio + Macro).md",
+      "artigo": "535164",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Entrada em Aduana (Somente Raio, Em viagem).md",
+      "artigo": "537040",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Entrada em Filial (Somente Raio).md",
+      "artigo": "535138",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Saída de Área de Sombra (Somente Raio).md",
+      "artigo": "531495",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Parada em Ponto Proibido Sem a Viagem.md",
+      "artigo": "527924",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Entrada em Raio de Coleta (Sem Viagem).md",
+      "artigo": "526125",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Entrada em Área de Sombra (Somente Raio).md",
+      "artigo": "531476",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Valida Versões de Tecnologia.md",
+      "artigo": "541792",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Excesso de Tempo em Coleta.md",
+      "artigo": "525700",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Expiração de Transferência de Sinal-Espelhamento.md",
+      "artigo": "541269",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Permitir Troca de Motorista Via Macro.md",
+      "artigo": "541098",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Validar Obrigatoriedade de Carreta na Criação da SM.md",
+      "artigo": "570272",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Violação de Fim de Descarregamento em Origem.md",
+      "artigo": "525108",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Entrada em Região Urbana.md",
+      "artigo": "531246",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Entrada em Raio de Entrega (Raio + Macro).md",
+      "artigo": "523802",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Entrada em Matriz (Raio + Macro).md",
+      "artigo": "535197",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Entrada em Raio de Aduana (Raio + Macro, em Viagem).md",
+      "artigo": "523850",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Entrada em Aduana (Raio + Macro).md",
+      "artigo": "535151",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Parada em Ponto Permitido Sem Viagem.md",
+      "artigo": "528149",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Validar Obrigatoriedade de Roteiro de Atividades (Veículo Motor).md",
+      "artigo": "550478",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Lembrete de Contato com o Motorista sem Sinal.md",
+      "artigo": "526165",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Obrigar o Preenchimento do Centro de Custos na SM.md",
+      "artigo": "574290",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Validar Diário de Bordo na SM.md",
+      "artigo": "529507",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Parada em Locais da Viagem (Raio + Macro).md",
+      "artigo": "542690",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Parada em Ponto Permitido Durante a Viagem.md",
+      "artigo": "528142",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Saída de Aduana (Somente Raio).md",
+      "artigo": "531529",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Macro de Entrada em Coleta.md",
+      "artigo": "525147",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Saída de Raio de Entrega (Somente Raio).md",
+      "artigo": "523805",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Saída de Raio de Destino (Raio + Macro).md",
+      "artigo": "523795",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Violação de Início de Descarregamento em Destino.md",
+      "artigo": "525104",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Violação de Início de Carregamento em Destino.md",
+      "artigo": "524195",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Violação de Fim de Descarregamento em Destino.md",
+      "artigo": "525113",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Violação de Fim de Descarregamento em Entrega.md",
+      "artigo": "525115",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Permitir Utilizar uma Isca de Carga como Rastreador Principal.md",
+      "artigo": "570759",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Macro de Saída da Coleta.md",
+      "artigo": "525153",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Ao Ocorrer um Evento de Recebimento de Senha Invalida do Motorista.md",
+      "artigo": "527059",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Violação no Horário de Início da Viagem.md",
+      "artigo": "523497",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Saída de Cliente (Somente Raio).md",
+      "artigo": "532830",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Validar Justificativa de Roteiro de Atividades (Veículo Motor).md",
+      "artigo": "550496",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Recebimento de Macro de Fim de Viagem Fora de Destino.md",
+      "artigo": "535228",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Violação de Início de Espera em Entrega.md",
+      "artigo": "524159",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Saída de Aduana (Raio + Macro).md",
+      "artigo": "531555",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Violação no Horário de Fim de Viagem.md",
+      "artigo": "523877",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Parada Indevida 2.md",
+      "artigo": "540243",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Validar Obrigatoriedade do Produto na SM.md",
+      "artigo": "570796",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Validar Justificativa de Checklist na Criação da SM.md",
+      "artigo": "532016",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Violação de Fim de Carregamento em Entrega.md",
+      "artigo": "525092",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Saída de Manutenção (Raio + Macro).md",
+      "artigo": "535160",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Entrada em Área de Sombra (Raio + Macro).md",
+      "artigo": "535142",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Saída de Região Urbana.md",
+      "artigo": "531253",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Violação de Fim de Carregamento em Coleta.md",
+      "artigo": "525095",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Perda de Sinal 2.md",
+      "artigo": "537064",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Entrada em Manutenção (Raio + Macro).md",
+      "artigo": "535158",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Saída de Local de Parada (Raio + Macro).md",
+      "artigo": "535165",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle da Viagem/Saída de Matriz (Somente Raio).md",
+      "artigo": "534324",
+      "fonte": "eventos-controle-da-viagem-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Solicitação de Autorização de Deslacre de Cabine Omnilink.md",
+      "artigo": "530153",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Excesso de Velocidade em Pista Seca (Telemetria Onixsat).md",
+      "artigo": "540264",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Genéricos da Tecnologia.md",
+      "artigo": "535590",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Solicitação de Autorização de Desengate de Carreta Omnilink.md",
+      "artigo": "530164",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Tensão de Bateria do Veículo.md",
+      "artigo": "531461",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Parada Não Permitida da Tecnologia.md",
+      "artigo": "536417",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Desengate de Trava de 5ª Roda.md",
+      "artigo": "528134",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Bloqueio Vandalizado.md",
+      "artigo": "534144",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Independente 01–10.md",
+      "artigo": "534104",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Sensor de Movimento.md",
+      "artigo": "538534",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Recebimento de Macro de Abertura de Baú Fora de Local da Viagem (Em Viagem).md",
+      "artigo": "543978",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Sensor de Perda de Vídeo.md",
+      "artigo": "538520",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Abertura de Porta de Baú.md",
+      "artigo": "528138",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Somente Violação Sensores Engate.md",
+      "artigo": "535674",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Abertura de Portas do Caroneiro.md",
+      "artigo": "533067",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Status de Porta do Motorista Não Aberta.md",
+      "artigo": "538883",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Violação de RPM Máximo.md",
+      "artigo": "522433",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Aceleração Lateral.md",
+      "artigo": "540532",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Solicitação de Autorização de Conexão com a Central em Local da Viagem (Raio + Macro).md",
+      "artigo": "538824",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Pisca Alerta.md",
+      "artigo": "522583",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Autorização-Deslacre-Desengate-Chegada-Conexão Mediante Senha de Pânico Omnilink (grupo).md",
+      "artigo": null,
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Autorização de Deslacre-Chegada-Conexão em Local da Viagem (Raio + Macro) (grupo).md",
+      "artigo": null,
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Solicitação de Autorização de Chegada Forcada Omnilink.md",
+      "artigo": "536362",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Violação do Sensor de Bateria.md",
+      "artigo": "522580",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Trava de Baú Travada.md",
+      "artigo": "534292",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Ignição.md",
+      "artigo": "523641",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Violação de Antena.md",
+      "artigo": "522620",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Violação dos Sensores de Engate.md",
+      "artigo": "522068",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Término de Trabalho Antes do Turno Registrado na Tecnologia.md",
+      "artigo": "537813",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Solicitação de Autorização de Abertura de Porta de Baú.md",
+      "artigo": "532800",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Sensor de Reconhecimento de Placa.md",
+      "artigo": "540697",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Bloqueio.md",
+      "artigo": "523871",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Parada para Entrega Fora do Local Registrador na Tecnologia.md",
+      "artigo": "537806",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Solicitação de Autorização de Deslacre de Porta de Baú Omnilink.md",
+      "artigo": "530148",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Falha no Envio do Desbloqueio (no Reinício da Viagem).md",
+      "artigo": "538913",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Nível de Bateria Baixo.md",
+      "artigo": "533044",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Grade.md",
+      "artigo": "530176",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Sensor de Ignição Ilegal.md",
+      "artigo": "538546",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Solicitação de Autorização de Conexão de Rastreador Omnilink.md",
+      "artigo": "536364",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Perda de Console da Tecnologia.md",
+      "artigo": "536413",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Jammer Detectado.md",
+      "artigo": "527828",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Violação de Trava de 5ª Roda.md",
+      "artigo": "522247",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Violação de Velocidade Máxima.md",
+      "artigo": "522263",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Sensor de Alarme de Temperatura.md",
+      "artigo": "540676",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Frenagem Brusca (Telemetria Onixsat).md",
+      "artigo": "540542",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Violação do Sensor de Painel.md",
+      "artigo": "522248",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Sensor de Caracol Fora do Destino Programado.md",
+      "artigo": "539983",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Sensor de Chamada de Motorista Distraído.md",
+      "artigo": "540682",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Carregamento da Bateria do Rastreador.md",
+      "artigo": "531470",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Solicitação de Autorização de Deslacre de Motor Omnilink.md",
+      "artigo": "536365",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Violação de Computador de Bordo.md",
+      "artigo": "522596",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Violação do Sensor de Janelas.md",
+      "artigo": "522624",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Partida Suspeita da Tecnologia.md",
+      "artigo": "536406",
+      "fonte": "eventos-controle-de-perifericos-1.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Solicitação de Autorização de Conexão de Rastreador Mediante Senha de Pânico Omnilink.md",
+      "artigo": "536386",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Sensor de Velocidade Baixa.md",
+      "artigo": "538543",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Sensor de Chamada de Motorista.md",
+      "artigo": "540705",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Violação do Sensor de Baú.md",
+      "artigo": "522231",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Velocidade Média Abaixo da Esperada.md",
+      "artigo": "533047",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Fadiga.md",
+      "artigo": "537818",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Violação de Faixa de Temperatura.md",
+      "artigo": "522438",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/GPS Travado.md",
+      "artigo": "522599",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Teclado Sem Funcionamento.md",
+      "artigo": "528124",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Abertura de Portas do Motorista.md",
+      "artigo": "533053",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Aviso Sonoro de Buzzer - Sirene.md",
+      "artigo": "522582",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Sensor de Alarme de Saída da Pista.md",
+      "artigo": "540686",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Sensor de Inicialização Anormal.md",
+      "artigo": "538551",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Independente 10.md",
+      "artigo": "534123",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Desligamento de Sensor de Temperatura.md",
+      "artigo": "538486",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Solicitação de Autorização de Deslacre de Motor em Local da Viagem (Raio + Macro).md",
+      "artigo": "538828",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Solicitação de Autorização de Deslacre de Carreta Omnilink.md",
+      "artigo": "530162",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Excesso de Velocidade na Chuva (Telemetria Onixsat).md",
+      "artigo": "540251",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Independente 08.md",
+      "artigo": "534119",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Aviso Sonoro de Sirene.md",
+      "artigo": "522581",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Somente Violação de Portas do Caroneiro.md",
+      "artigo": "535662",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Violação de Portas do Caroneiro.md",
+      "artigo": "522219",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Sinal de Vida da Tecnologia.md",
+      "artigo": "536422",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Violação de Velocidade Máxima (Por Região).md",
+      "artigo": "535655",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Sensor Sem Dirigir.md",
+      "artigo": "540678",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Percentual de Bateria do Rastreador.md",
+      "artigo": "531464",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Genérico da Tecnologia 4.md",
+      "artigo": "535626",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Solicitação de Autorização de Deslacre de Cabine em Local da Viagem (Raio + Macro).md",
+      "artigo": "538817",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Violação de Teclado.md",
+      "artigo": "522605",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Sensor de Interruptor de Porta Ocioso.md",
+      "artigo": "540688",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Solicitação de Autorização de Chegada Forcada Mediante Senha de Pânico Omnilink.md",
+      "artigo": "536369",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Violação do Sensor de Porta de Baú 2.md",
+      "artigo": "535651",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Tempo de Temperatura Fora da Faixa.md",
+      "artigo": "537085",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Independente 09.md",
+      "artigo": "534122",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Alerta de Segurança.md",
+      "artigo": "536425",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Somente Violação de Portas do Motorista.md",
+      "artigo": "535671",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Aceleração Brusca (Telemetria Onixsat).md",
+      "artigo": "540298",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Solicitação de Autorização de Abertura de Baú Mediante Senha de Pânico Omnilink.md",
+      "artigo": "536373",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Sensor de Alarme de Temperatura Anormal.md",
+      "artigo": "540664",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Genérico da Tecnologia 1.md",
+      "artigo": "535621",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Excesso de Tempo Parado da Tecnologia.md",
+      "artigo": "536442",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Sensor de Chamada de Motorista Fumando.md",
+      "artigo": "540684",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Sensor de Sensor de Previsão de Colisão.md",
+      "artigo": "540666",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Senha de Coação do Motorista da Tecnologia.md",
+      "artigo": "536394",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Genérico da Tecnologia 5.md",
+      "artigo": "535629",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Violação de Velocidade Máxima 2.md",
+      "artigo": "541149",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Solicitação de Autorização de Chegada Forcada em Local da Viagem (Raio + Macro).md",
+      "artigo": "538573",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Independente 01.md",
+      "artigo": "534104",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Sensor de Caracol Ligado.md",
+      "artigo": "539976",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Violação de Portas do Motorista.md",
+      "artigo": "522228",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Desligamento de Dispositivo Móvel.md",
+      "artigo": "569576",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Solicitação de Autorização de Abertura de Baú em Local da Viagem (Raio + Macro).md",
+      "artigo": "538806",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Solicitação de Autorização de Deslacre de Carreta em Local da Viagem (Raio + Macro).md",
+      "artigo": "538821",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Sensor de Desligamento Ilegal.md",
+      "artigo": "540709",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Botão de Pânico Pressionado.md",
+      "artigo": "522588",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Sensor de Caracol Desligado.md",
+      "artigo": "539980",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Trava de Baú Destravada.md",
+      "artigo": "528135",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Independente 07.md",
+      "artigo": "534118",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Independente 02.md",
+      "artigo": "534107",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Independente 05.md",
+      "artigo": "534112",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Periféricos/Alimentação por Painel Solar.md",
+      "artigo": "531451",
+      "fonte": "eventos-controle-de-perifericos-2.md"
+    },
+    {
+      "documento": "eventos/Controle de Deslocamento/Movimento em Área Crítica pelo Valor da Carga.md",
+      "artigo": "530508",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Deslocamento/Leitura de Evento de Parada em Local Não Homologado Em Viagem.md",
+      "artigo": "542260",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Deslocamento/Saída de Raio de Origem (Sem Evento de Entrada).md",
+      "artigo": "539145",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Deslocamento/Parada Indevida.md",
+      "artigo": "522921",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Deslocamento/Leitura de Evento de Parada em Local Não Homologado Sem Viagem.md",
+      "artigo": "542217",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Deslocamento/Macro de Parada Informada (Somente Macro).md",
+      "artigo": "534159",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Deslocamento/Parada em Local Não Referenciada.md",
+      "artigo": "535578",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Deslocamento/Saída de Raio de Destino (Sem Evento de Entrada).md",
+      "artigo": "539146",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Deslocamento/Controlar Movimento Indevido (Mais Macro).md",
+      "artigo": "537132",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Deslocamento/Parada Em Área de Risco (Macro do Tipo Parada).md",
+      "artigo": "540734",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Deslocamento/Desativação de GPS (APP).md",
+      "artigo": "543392",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Deslocamento/Parada Não Autorizada em Percurso Mínimo Área Segura.md",
+      "artigo": "539214",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Deslocamento/Movimento em Área Crítica em Horário Proibido.md",
+      "artigo": "530474",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Deslocamento/Violação da Embalagem da Isca.md",
+      "artigo": "541301",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Deslocamento/Movimento Indevido em Ancoragem.md",
+      "artigo": "535606",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Deslocamento/Parada em Ponto Permitido com Restrição de Horário.md",
+      "artigo": "538837",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Deslocamento/Parada Indevida Em Área Segura.md",
+      "artigo": "539240",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Deslocamento/Controlar Movimento Indevido.md",
+      "artigo": "522878",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Deslocamento/Movimento Indevido Fora do Último Destino.md",
+      "artigo": "532082",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Deslocamento/Movimento Indevido Area Segura.md",
+      "artigo": "539234",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Deslocamento/Ancoragem de Veículo.md",
+      "artigo": "535603",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Deslocamento/Movimento Indevido em Pernoite em Área de Risco.md",
+      "artigo": "534125",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Deslocamento/Macro de Parada Informada com Bloqueio (Somente Macro).md",
+      "artigo": "531256",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Desvio de Rota/Desvio de Rota 2.md",
+      "artigo": "543452",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Desvio de Rota/Retorno a Rota da Tecnologia.md",
+      "artigo": "526161",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Desvio de Rota/Desvio de Rota da Tecnologia.md",
+      "artigo": "526150",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Desvio de Rota/Retorno a Rota.md",
+      "artigo": "523597",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Desvio de Rota/Desvio de Rota.md",
+      "artigo": "522678",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Desvio de Rota/Desvio de Rota (Controle de Ações).md",
+      "artigo": "541094",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Desvio de Rota/Retorno a Rota 2.md",
+      "artigo": "543455",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Áreas de Risco/Parada Em Área de Risco (Em Viagem).md",
+      "artigo": "543757",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Áreas de Risco/Parada Em Área de Risco (Sem Viagem).md",
+      "artigo": "543710",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Áreas de Risco/Saída de Área de Risco (Sem Viagem).md",
+      "artigo": "533157",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Áreas de Risco/Saída de Área de Risco.md",
+      "artigo": "522629",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Áreas de Risco/Entrada em Área de Risco.md",
+      "artigo": "522669",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Áreas de Risco/Entrada em Área de Risco (Sem Viagem).md",
+      "artigo": "533091",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Rota Reversa/Retorno de Rota Reversa.md",
+      "artigo": "523330",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Rota Reversa/Rota Reversa.md",
+      "artigo": "522458",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Comboios/Comboio Não Efetivado por Expiração de Tempo Pela Data de Prev. Início.md",
+      "artigo": "541272",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Comboios/Comboio Não Finalizado por Expiração de Tempo Pela Data de Prev. Fim.md",
+      "artigo": "541279",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Viagem/Parada Não Autorizada em Percurso Mínimo.md",
+      "artigo": "523422",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Viagem/Parada Não Autorizada em Tempo Mínimo.md",
+      "artigo": "523397",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Viagem/Logístico de Saída.md",
+      "artigo": "527917",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Viagem/Logístico de Chegada.md",
+      "artigo": "527911",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Tempos/Fim de Parada.md",
+      "artigo": "528165",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Tempos/Excesso de Tempo em Pernoite.md",
+      "artigo": "534270",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Tempos/Saída de Local.md",
+      "artigo": "524354",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Tempos/Início de Parada.md",
+      "artigo": "528158",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Tempos/Fim de Pernoite (Sem Macro).md",
+      "artigo": "534267",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Tempos/Início de Parada para Pernoite (Sem Macro).md",
+      "artigo": "534162",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Tempos/Macro de Reinício de Viagem Após Pernoite.md",
+      "artigo": "534318",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Tempos/Excesso de Tempo em Parada.md",
+      "artigo": "534284",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Tempos/Chegada em Local.md",
+      "artigo": "524349",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Tempos/Excesso de Tempo em Pátio.md",
+      "artigo": "538510",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Tempos/Excesso de Paradas em Um Período.md",
+      "artigo": "539420",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Pernoite/Movimento em Horário de Pernoite sem Viagem Associada.md",
+      "artigo": "522656",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Pernoite/Movimento em Horário de Pernoite com Viagem Associada.md",
+      "artigo": "522636",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Pernoite/Movimento Indevido em Pernoite para Veículos Com e Sem Viagem.md",
+      "artigo": "542720",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Pernoite/Macro de Início de Pernoite.md",
+      "artigo": "523573",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Pernoite/Macro de Fim de Pernoite.md",
+      "artigo": "523576",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Carga/Controlar o Valor Máximo da Carga para a Viagem com Justificativa.md",
+      "artigo": "523394",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Carga/Controlar o Valor Máximo da Carga para a Viagem com Obrigatoriedade (art 522641).md",
+      "artigo": "522641",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Controle de Carga/Controlar o Valor Máximo da Carga para a Viagem com Obrigatoriedade (art 523351).md",
+      "artigo": "523351",
+      "fonte": "eventos-outros-tipos.md"
+    },
+    {
+      "documento": "eventos/Pesquisa de Consulta/Obrigar o Preenchimento do Embarcador na Criação da SM.md",
+      "artigo": "531287",
+      "fonte": "eventos-outros-tipos.md"
+    }
+  ]
+}

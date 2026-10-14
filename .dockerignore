@@ -1,0 +1,8 @@
+node_modules
+logs
+config/credentials.env
+.git
+backups
+Claude outputs
+*.zip
+*.7z

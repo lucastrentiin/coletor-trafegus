@@ -1,0 +1,21 @@
+config/credentials.env
+.env
+node_modules/
+logs/*.log
+reports/*.html
+# --- 14/10/2026 ---
+config/*
+!config/credentials.env.example
+mcp/.env
+mcp/state/
+mcp/node_modules/
+frontend/node_modules/
+frontend/tsconfig.tsbuildinfo
+web/assets/
+web/index.html
+web/login.html
+agent_sync/tmp*
+logs/
+*.bak*
+backup-*.tgz
+*.tar
