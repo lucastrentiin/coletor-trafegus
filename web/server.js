@@ -306,7 +306,7 @@ async function querySomenteLeitura(client, sql, params) {
     await client.query('BEGIN READ ONLY');
     try {
         await client.query(`SET LOCAL statement_timeout = ${ms}`);
-        const result = await querySomenteLeitura(client, sql, params);
+        const result = await client.query(sql, params);
         await client.query('COMMIT');
         return result;
     } catch (error) {
